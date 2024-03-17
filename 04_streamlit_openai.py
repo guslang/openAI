@@ -1,17 +1,10 @@
 from openai import OpenAI
 import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
+#from dotenv import load_dotenv
+#load_dotenv()
 import time
-# client = OpenAI()
 
-# print(f"client.api_key : {client.api_key}")
-# openai_api_key = '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'
-# assistant_id = 'asst_q1m84tdKUftPcDbyLdn9wBcy'
-# thread_id = 'thread_DWXvOt615HroXnk7uw2az83B'
-# openai_api_key = ''
 assistant_id = 'asst_q1m84tdKUftPcDbyLdn9wBcy'
-# thread_id = ''
 
 with st.sidebar:
     st.link_button("더 좋은 컨텐츠를 위한 후원하기","https://toss.me/guslang")
