@@ -4,7 +4,7 @@ import streamlit as st
 #load_dotenv()
 import time
 
-assistant_id = 'asst_q1m84tdKUftPcDbyLdn9wBcy'
+assistant_id = st.secrets['assistant_id']
 
 with st.sidebar:
     st.link_button("더 좋은 컨텐츠를 위한 후원하기","https://toss.me/guslang")
